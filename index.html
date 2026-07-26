@@ -1,126 +1,168 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>تطبيق باب المعظم</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-.logo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 22px;
+<title>تطبيق باب المعظم</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Tahoma,Arial,sans-serif;
 }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      font-family: Arial, Tahoma, sans-serif;
-      background: linear-gradient(160deg, #081a33, #12345b, #071522);
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 24px;
-    }
 
-    .box {
-      width: 100%;
-      max-width: 520px;
-      text-align: center;
-      background: rgba(255,255,255,0.1);
-      border: 1px solid rgba(255,255,255,0.2);
-      border-radius: 25px;
-      padding: 28px;
-    }
+body{
+background:linear-gradient(160deg,#0b1d3a,#153d6b,#09182d);
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:20px;
+color:#fff;
+}
 
-    .logo {
-      width: 90px;
-      height: 90px;
-      margin: auto;
-      margin-bottom: 15px;
-      border-radius: 22px;
-      background: white;
-      color: #0b2746;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 42px;
-      font-weight: bold;
-    }
+.box{
+width:100%;
+max-width:520px;
+background:rgba(255,255,255,.08);
+border:1px solid rgba(255,255,255,.15);
+backdrop-filter:blur(10px);
+border-radius:25px;
+padding:30px;
+text-align:center;
+}
 
-    h1 {
-      margin-bottom: 10px;
-    }
+.logo{
+width:110px;
+height:110px;
+margin:0 auto 20px;
+background:#fff;
+border-radius:24px;
+overflow:hidden;
+display:flex;
+justify-content:center;
+align-items:center;
+}
 
-    p {
-      line-height: 1.8;
-    }
+.logo img{
+width:100%;
+height:100%;
+object-fit:contain;
+}
 
-    .button {
-      display: block;
-      margin: 12px 0;
-      padding: 15px;
-      border-radius: 15px;
-      text-decoration: none;
-      font-size: 18px;
-      font-weight: bold;
-    }
+h1{
+font-size:34px;
+margin-bottom:12px;
+}
 
-    .store {
-      background: white;
-      color: #071522;
-    }
+p{
+line-height:1.8;
+margin-bottom:20px;
+color:#e5e7eb;
+}
 
-    .contact {
-      background: rgba(255,255,255,0.15);
-      color: white;
-      border: 1px solid rgba(255,255,255,0.2);
-    }
-  </style>
+.btn{
+display:block;
+text-decoration:none;
+padding:16px;
+border-radius:15px;
+font-size:18px;
+font-weight:bold;
+margin:12px 0;
+transition:.25s;
+}
+
+.btn:hover{
+transform:translateY(-2px);
+}
+
+.store{
+background:#fff;
+color:#111827;
+}
+
+.contact{
+background:rgba(255,255,255,.12);
+border:1px solid rgba(255,255,255,.2);
+color:#fff;
+}
+
+.footer{
+margin-top:25px;
+line-height:2;
+font-size:16px;
+color:#f3f4f6;
+}
+
+.footer a{
+color:#fff;
+text-decoration:none;
+}
+
+</style>
+
 </head>
 
 <body>
 
-  <div class="logo">
-  <img src="IMG_9140.jpeg" alt="شعار باب المعظم">
+<div class="box">
+
+<div class="logo">
+<img src="IMG_9140.jpeg" alt="باب المعظم">
 </div>
-    <h1>تطبيق باب المعظم</h1>
 
-    <p>
-      اختر نوع جهازك لتحميل التطبيق<br>
-      ومشاهدة الأسعار والعروض الجديدة
-    </p>
+<h1>تطبيق باب المعظم</h1>
 
-    <a class="button store"
-       href="https://play.google.com/store/apps/details?id=app.technolanes.babelmoatham">
-      تحميل للأندرويد – Google Play
-    </a>
+<p>
+اختر نوع جهازك لتحميل التطبيق<br>
+ومشاهدة الأسعار والعروض الجديدة
+</p>
 
-    <a class="button store"
-       href="https://apps.apple.com/iq/app/%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%B9%D8%B8%D9%85/id6785008966?l=ar">
-      تحميل للآيفون – App Store
-    </a>
+<a class="btn store"
+href="https://play.google.com/store/apps/details?id=app.technolanes.babelmoatham"
+target="_blank">
+تحميل للأندرويد — Google Play
+</a>
 
-    <a class="button contact"
-       href="https://t.me/Bab_almuadam">
-      التواصل عبر تيليجرام
-    </a>
+<a class="btn store"
+href="https://apps.apple.com/iq/app/%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%B9%D8%B8%D9%85/id6785008966?l=ar"
+target="_blank">
+تحميل للآيفون — App Store
+</a>
 
-    <a class="button contact"
-       href="https://wa.me/9647735447783">
-      التواصل عبر واتساب
-    </a>
+<a class="btn contact"
+href="https://t.me/Bab_almuadam"
+target="_blank">
+التواصل عبر تيليجرام
+</a>
 
-    <p>
-      🚛 توصيل مجاني إلى جميع محافظات العراق<br>
-      📱 07735447783
-    </p>
+<a class="btn contact"
+href="https://wa.me/9647735447783"
+target="_blank">
+التواصل عبر واتساب
+</a>
 
-  </div>
+<div class="footer">
+
+🚚 توصيل مجاني إلى جميع محافظات العراق
+
+<br><br>
+
+📞 <a href="tel:07735447783">07735447783</a>
+
+<br><br>
+
+📍 بغداد - باب المعظم
+
+</div>
+
+</div>
 
 </body>
+
 </html>
